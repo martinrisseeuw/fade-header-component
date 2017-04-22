@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'ClearSans';
+  src: url('../fonts/ClearSans-Regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClearSans';
+  src: url('../fonts/ClearSans-Bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'ClearSans', 'helvetica neue', sans-serif;
+  font-size: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 47px;
+  font-weight: bold;
+  line-height: 1.17;
+}
+
+h2 {
+  font-size: 39px;
+  font-weight: bold;
+  line-height: 1.28;
+}
+
+h3 {
+  font-size: 33px;
+  font-weight: bold;
+  line-height: 1.27;
+}
+
+h4 {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 1.37;
+}
+
+h5 {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 1.39;
+}
+
+h6 {
+  font-size: 19.2px;
+  font-weight: bold;
+  line-height: 1.46;
+}
+
+.intro-small {
+  font-size: 19.2px;
+  line-height: 1.46;
+}
+
+.body-small {
+  font-size: 13.3px;
+  line-height: 1.8;
+}
